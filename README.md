@@ -1,17 +1,17 @@
-# ![Drive Homepage]
+
 
 
 
 <div align="center">
-  <h1>☁️ Drive</h1>
-  <strong>Open Source cloud file storage server (Similar To Google Drive)</strong>
+  <h1> Drive</h1>
+  <strong>Open Source  file storage server </strong>
 </div>
 
 ## 🔍 Index
 
 - [Features](#features)
 - [Tech stack](#tech-stack)
-- [Common installation issues](#common-installation-issues)
+
 
 
 <span id="features"></span>
@@ -70,26 +70,6 @@ npm run build
 npm run start
 ```
 
-<span id="common-installation-issues"></span>
-
-#### Possible installation issues
-
-Make issue
-
-```sh
-npm error gyp ERR! stack Error: not found: make
-```
-
-This is because you do not have the build essentials installed which is required for Linux. You can install them by running the following command:
-
-```sh
-sudo apt-get install build-essential
-```
-
-Memory issue
-
-```sh
-Aborted (core dumped)
 ```
 
 When running the `npm run build` command it may take more memory than node allows by default. You will get the above error in such a case. To fix this, you can run the following command instead when building:
